@@ -1,0 +1,24 @@
+/* Expand the main white container and Quarto grid */
+.quarto-container {
+  max-width: 95% !important;
+}
+
+#quarto-content.page-columns {
+  max-width: 100% !important;
+}
+
+/* Prevent text from stacking in the tables */
+.nowrap {
+  white-space: nowrap !important;
+}
+
+/* Allow the table wrapper to scroll horizontally if needed */
+.dataTables_wrapper {
+  width: 100% !important;
+  overflow-x: auto !important;
+}
+
+/* Ensure the table itself doesn't shrink */
+.dataTable {
+  width: 100% !important;
+}

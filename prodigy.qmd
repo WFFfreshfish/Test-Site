@@ -1,0 +1,24 @@
+---
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: projects/RR.qmd
+        text: Rivers and Reservoirs
+
+      - href: SL.qmd
+        text: State Lakes
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+---

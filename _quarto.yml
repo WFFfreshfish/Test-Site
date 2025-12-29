@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ADCNR, Freshwater Fisheries Division"
+  page-navigation: true
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: projects/RR.qmd
+        text: Rivers and Reservoirs
+
+      - href: SL.qmd
+        text: State Lakes
+
+  page-footer:
+    left: "&copy; Copyright 2025, Lee Grove"
+    right: "Fisheries conservation for the enjoyment of present and future generations"
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    page-layout: full
+    toc: true
+
+
+

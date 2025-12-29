@@ -1,0 +1,432 @@
+---
+title: "Introduction"
+format: 
+  html:
+    page-layout: full
+    toc: true
+---
+
+<p> 
+Fisheries biologists use several key metrics to track and manage fish populations. CPUE (Catch-per-Unit-Effort) measures how many fish are caught per unit of effort, helping compare abundance across lakes and years. PSD (Proportional Stock Density) and RSD (Relative Stock Density) show the proportion of larger fish in the population, with RSD highlighting preferred, memorable, and trophy-size fish. Relative weight (Wr) compares a fish’s weight to what’s typical for its length, providing an indicator of overall health and condition. Together, these metrics give biologists a clear picture of population trends, growth, and the overall quality of Alabama’s fisheries.
+<p>
+
+<p>
+**Boat Ramps and Access:** [Outdoor Alabama Freshwater Boating Access](https://www.outdooralabama.com/freshwater-boating-access)
+<p>
+
+## Mobile-Tensaw River Delta
+
+The Mobile–Tensaw River Delta, one of the largest and most ecologically diverse river deltas in the United States, encompasses more than 250,000 acres of rivers, swamps, marshes, and floodplain forests in coastal Alabama. Formed by the confluence of the Mobile, Tensaw, and Apalachee rivers, the delta is renowned as a premier freshwater fishing and wildlife system in the Southeast. Managed cooperatively by state and federal partners, with hydrology driven by natural river flows and upstream water control projects, the delta supports extensive aquatic habitat and productivity. These diverse environments sustain abundant fisheries, including largemouth bass, crappie spp., bream, striped bass, catfish, and a wide array of estuarine and migratory species.
+
+- **Location:** Southwest Alabama, north of Mobile Bay
+- **Size:** 20,323 acres
+- **Max Depth:** ~100
+- **Impounded:** Free flowing from Claibourne and Coffeeville dams
+
+
+::: {.column-screen-inset-right}
+::: {.panel-tabset}
+
+### Upper Delta, LMB
+
+```{r upper-delta-summary}
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+#| fig-width: 10
+#| fig-height: 5
+#| out-width: 100%
+#| column: screen
+
+# --- START OF UPPER DELTA CODE ---
+
+library(DT)
+library(ALFFPackage)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(patchwork)
+
+# Load full data set
+mtd_full = read.csv('bc_wc_lmb_2025.csv', na.strings = '.')
+
+# Filter the data for "Upper Delta"
+mtd_upper = mtd_full %>%
+  dplyr::filter(Lake == "Upper Delta" & Species == "Largemouth Bass")
+
+# Generate summary using your custom function
+summary_results_upper <- make_lake_summary(mtd_upper) %>% 
+  add_summary_row() %>% rename(`15+ inch/hr` = `CPUE (large fish/hr)`)
+
+# 1. Prep data — robust handling of missing years
+plot_data <- summary_results_upper %>%
+  filter(!is.na(Year), Year != "Mean") %>%
+  mutate(Year = suppressWarnings(as.integer(as.character(Year)))) %>%
+  filter(!is.na(Year)) %>%
+  group_by(Year) %>%
+  summarise(
+    `CPUE (fish/hr)` = mean(`CPUE (fish/hr)`, na.rm = TRUE),
+    `15+ inch/hr` = mean(`15+ inch/hr`, na.rm = TRUE),
+    `RSD-P` = mean(`RSD-P`, na.rm = TRUE),
+    `Relative Weight` = mean(`Relative Weight`, na.rm = TRUE)
+  ) %>% tidyr::complete(Year = seq(min(Year), max(Year), by = 1))
+
+# 2. Define Plot Style (Reusable for consistency)
+my_theme <- theme_minimal(base_size = 14) + 
+            theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5), 
+            panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank(),
+            axis.line = element_line(color = "black", linewidth = 0.6),
+            axis.ticks = element_line(color = "black", linewidth = 0.6),
+            axis.ticks.length = unit(0.2, "cm"),
+            plot.margin = margin(5, 5, 5, 5))
+
+# This creates a full sequence of integers from the first year to the last year
+year_breaks <- seq(min(plot_data$Year, na.rm = TRUE), 
+                   max(plot_data$Year, na.rm = TRUE), 
+                   by = 1)
+
+# 3. Create the plots
+p1 <- ggplot(plot_data, aes(x = Year)) +
+  geom_smooth(aes(y = `CPUE (fish/hr)`), method = "lm", se = FALSE, 
+              color = "gray", linetype = "dashed", linewidth = 0.8) +
+  geom_line(aes(y = `CPUE (fish/hr)`, color = "Total CPUE"), size = 1.2) +
+  geom_point(aes(y = `CPUE (fish/hr)`, color = "Total CPUE"), size = 3) +
+  geom_smooth(aes(y = `15+ inch/hr`), method = "lm", se = FALSE, 
+              color = "gray", linetype = "dashed", linewidth = 0.8) +
+  geom_line(aes(y = `15+ inch/hr`, color = "15inch+ CPUE"), size = 1.2) +
+  geom_point(aes(y = `15+ inch/hr`, color = "15inch+ CPUE"), size = 3) +
+  scale_x_continuous(breaks = year_breaks) +
+  labs(title = "CPUE Trends", y = "Fish/hr", color = NULL) +
+  my_theme + guides(
+    color = guide_legend(
+      ncol = 1,        # stack legend entries vertically
+      byrow = TRUE
+    )
+  ) +
+  theme(legend.position = "bottom", 
+        legend.justification = "left",
+        legend.box.margin = margin(t = -20),)
+
+p2 <- ggplot(plot_data, aes(x = Year, y = `RSD-P`)) +
+  geom_smooth(aes(y = `RSD-P`), method = "lm", se = FALSE, 
+              color = "gray", linetype = "dashed", linewidth = 0.8) +
+  geom_line(color = "darkgreen", size = 1.2) +
+  geom_point(color = "darkgreen", size = 3) +
+  scale_x_continuous(breaks = year_breaks) +
+  labs(title = "RSD-P", y = "Score") +
+  my_theme + theme(legend.position = "none")
+
+p3 <- ggplot(plot_data, aes(x = Year, y = `Relative Weight`)) +
+  geom_smooth(aes(y = `Relative Weight`), method = "lm", se = FALSE, 
+              color = "gray", linetype = "dashed", linewidth = 0.8) +
+  geom_line(color = "blue", size = 1.2) +
+  geom_point(color = "blue", size = 3) +
+  scale_x_continuous(breaks = year_breaks) +
+  labs(title = "Relative Weight", y = "Weight") +
+  my_theme + theme(legend.position = "none")
+
+# 4. Assemble
+(p1 + p2 + p3) + plot_layout(
+    ncol = 3,
+    widths = c(1, 1, 1)) &
+  theme(legend.position = "bottom", 
+        plot.margin = margin(10, 5, 10, 5))
+
+# --- END OF UPPER DELTA CODE ---
+
+```
+
+### Upper Delta, Crappie
+
+```{r upper-delta-crappie-summary, echo = FALSE, results = 'asis', message = FALSE}
+# --- START OF Upper DELTA Crappie CODE ---
+
+# Filter the data for "Upper Delta" (Assume "Upper Delta" is the correct name in the CSV)
+
+mtd_upper = mtd_full %>%
+  dplyr::filter(Lake == "Upper Delta" & Species != "Largemouth Bass") 
+
+# Run the summary function on the Lower Delta data
+summary_results_upperc <- make_lake_summary(mtd_upper) %>%
+  add_summary_row() %>% rename(`9+ inch/hr` = `CPUE (large fish/hr)`)
+
+datatable(summary_results_upperc, 
+          caption = "Upper Delta Crappie CPUE & WR Summary",
+          width = "100%", 
+          options = list(dom = 'tip',
+                         scrollX = TRUE,
+                         columnDefs = list(
+                           list(className = 'dt-center nowrap', targets = 0:7))))
+# --- OF Upper DELTA Crappie CODE ---
+```
+
+### Lower Delta, LMB
+
+```{r lower-delta-summary}
+#| results: asis
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 10
+#| out-width: "100%"
+
+# --- START OF LOWER DELTA CODE ---
+
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+
+# Filter the data for "Lower Delta" (Assume "Lower Delta" is the correct name in the CSV)
+
+#1 Filter Data
+mtd_lower = mtd_full %>%
+  dplyr::filter(Lake == "Lower Delta" & Species == "Largemouth Bass")
+
+# 2. Generate the Summary Table
+summary_results_lower <- make_lake_summary(mtd_lower) %>% 
+  rename(`15+ inch/hr` = `CPUE (large fish/hr)`)
+
+# 3. Calculate Historical Mean AND Standard Error (SE)
+# We calculate the mean of the annual results, and the SE of those results
+historical_stats <- summary_results_lower %>%
+  summarise(
+    Year = "Historical Mean",
+    # Means
+    `CPUE (fish/hr)_val` = mean(`CPUE (fish/hr)`, na.rm = TRUE),
+    `15+ inch/hr_val`    = mean(`15+ inch/hr`, na.rm = TRUE),
+    `RSD-P_val`          = mean(`RSD-P`, na.rm = TRUE),
+    `Relative Weight_val` = mean(`Relative Weight`, na.rm = TRUE),
+    # Standard Errors (sd / sqrt(n))
+    `CPUE (fish/hr)_se`  = sd(`CPUE (fish/hr)`, na.rm = TRUE) / sqrt(n()),
+    `15+ inch/hr_se`     = sd(`15+ inch/hr`, na.rm = TRUE) / sqrt(n()),
+    `RSD-P_se`           = sd(`RSD-P`, na.rm = TRUE) / sqrt(n()),
+    `Relative Weight_se` = sd(`Relative Weight`, na.rm = TRUE) / sqrt(n())
+  )
+
+# 4. Get the 2024 data (SE will be 0 for the current year)
+current_2024 <- summary_results_lower %>%
+  filter(Year == 2024) %>%
+  mutate(Year = "2024") %>%
+  select(Year, contains("hr"), `RSD-P`, `Relative Weight`) %>%
+  rename_with(~paste0(., "_val"), -Year) %>%
+  mutate(across(ends_with("_se"), ~0, .names = "{.col}")) # Add dummy 0 SE for 2024
+
+# 5. Combine and Pivot
+plot_data <- bind_rows(
+  current_2024, 
+  historical_stats
+) %>%
+  pivot_longer(
+    cols = -Year, 
+    names_to = c("Metric", ".value"), 
+    names_sep = "_"
+  ) %>%
+  mutate(Year = factor(Year, levels = c("2024", "Historical Mean")))
+
+# 6. Create the Plot
+ggplot(plot_data, aes(x = Year, y = val, fill = Year)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  
+  # Error bars only for Historical Mean
+  geom_errorbar(aes(ymin = val - se, ymax = val + se), 
+                width = 0.2) +
+  
+  # Values centered inside the bars
+  geom_text(aes(label = round(val, 1)), 
+            vjust = 3.8,         
+            size = 4, 
+            fontface = "bold", 
+            color = "white") +   
+  
+  # THIS SPLITS THE PLOT INTO FOUR PANELS
+  facet_wrap(~Metric, scales = "free_y", ncol = 2) +
+  
+  theme_minimal() +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15))) + 
+  scale_fill_manual(values = c("2024" = "#2c7fb8", "Historical Mean" = "#bdbdbd")) +
+  
+  labs(title = "Lower Delta LMB: Detailed Metric Comparison",
+       subtitle = "2024 vs. Historical Mean with Standard Error",
+       x = "", y = "") +
+  
+  theme(
+    # BOLD AND BLACK X-AXIS LABELS
+    axis.text.x = element_text(color = "black", face = "bold", size = 10),
+    axis.text.y = element_text(color = "black"),
+    
+    # Styling for the "Tabs/Headers" of each plot
+    strip.text = element_text(face = "bold", size = 12),
+    strip.background = element_rect(fill = "#f0f0f0", color = NA),
+    
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(), 
+    axis.line = element_line(color = "black", linewidth = 0.6),
+    axis.ticks = element_line(color = "black", linewidth = 0.6),
+    legend.position = "none" # Legend is redundant since x-axis labels say the Year
+  )
+
+# --- END OF LOWER DELTA CODE ---
+```
+
+### Lower Delta, Crappie
+
+```{r lower-delta-crappie-summary, echo = FALSE, results = 'asis', message = FALSE}
+# --- START OF Lower DELTA Crappie CODE ---
+
+# Filter the data for "Lowe Delta" (Assume "Lower Delta" is the correct name in the CSV)
+
+mtd_lower = mtd_full %>%
+  dplyr::filter(Lake == "Lower Delta" & Species != "Largemouth Bass")
+
+# Run the summary function on the Lower Delta data
+summary_results_lowerc <- make_lake_summary(mtd_lower) %>%
+  add_summary_row() %>% rename(`9+ inch/hr` = `CPUE (large fish/hr)`)
+
+datatable(summary_results_lowerc, 
+          caption = "Lower Delta Crappie CPUE & WR Summary",
+          width = "100%", 
+          options = list(dom = 'tip',
+                         scrollX = TRUE,
+                         columnDefs = list(
+                           list(className = 'dt-center nowrap', targets = 0:7))))
+
+# ... [End of Lower Delta Crappie Chunk] ...
+# --- END OF LOWER DELTA CODE ---
+
+```
+
+::: 
+
+:::
+
+## Coffeeville Reservoir
+
+Coffeeville Reservoir, a run-of-the-river impoundment on the Tombigbee River in southwest Alabama, extends approximately 97 river miles from Coffeeville Lock and Dam upstream to Demopolis Lock and Dam. Operated by the U.S. Army Corps of Engineers, the reservoir functions primarily as a navigation corridor while maintaining riverine characteristics and seasonal flow variability. This system supports a diverse assemblage of aquatic habitats, including main-channel, backwater, and floodplain environments. As a result, Coffeeville Reservoir sustains productive fisheries for largemouth bass, crappie spp., bream, and catfish.
+
+- **Location:** Southwest Alabama, between Coffeeville and Demopolis Lock and Dam
+- **Size:** 8,500 acres
+- **Max Depth:** ~40 ft. 
+- **Impounded:** 1960, (Old Lock One dates back to 1915)
+
+::: {.column-screen-inset-right}
+::: {.panel-tabset}
+
+### Coffeeville, Largemouth Bass
+
+```{r coffeeville-reservoir-LMB-summary, echo = FALSE, results = 'asis', message = FALSE}
+# --- START OF Coffeeville Reservoir LMB CODE ---
+
+# Filter the data for "Coffeeville Reservoir" (Assume "Coffeeville Reservoir" is the correct name in the CSV)
+
+mtd_coffee = mtd_full %>%
+  dplyr::filter(Lake == "Coffeeville Reservoir" & Species == "Largemouth Bass")
+
+# Run the summary function on the Coffeeville Reservoir data
+summary_results_lower_lmb <- make_lake_summary(mtd_coffee) %>%
+  add_summary_row() %>% rename(`15+ inch/hr` = `CPUE (large fish/hr)`)
+
+datatable(summary_results_lower_lmb, 
+          caption = "Coffeeville Largemouth Bass (LMB) CPUE & WR Summary",
+          width = "100%", 
+          options = list(dom = 'tip',
+                         scrollX = TRUE,
+                         columnDefs = list(
+                           list(className = 'dt-center nowrap', targets = 0:7))))
+
+# --- END OF Coffeeville Reservoir CODE ---
+```
+
+### Coffeeville, Crappie
+
+```{r coffeeville-reservoir-Crappie-summary, echo = FALSE, results = 'asis', message = FALSE}
+# --- START OF Coffeeville Reservoir Crappie CODE ---
+
+# Filter the data for "Coffeeville Reservoir" (Assume "Coffeeville Reservoir" is the correct name in the CSV)
+
+mtd_coffee = mtd_full %>%
+  dplyr::filter(Lake == "Coffeeville Reservoir" & Species != "Largemouth Bass")
+
+# Run the summary function on the Coffeeville Reservoir data
+summary_results_lower_crappie <- make_lake_summary(mtd_coffee) %>%
+  add_summary_row() %>% rename(`9+ inch/hr` = `CPUE (large fish/hr)`)
+
+datatable(summary_results_lower_crappie, 
+          caption = "Coffeeville Crappie spp. CPUE & WR Summary",
+          width = "100%", 
+          options = list(dom = 'tip',
+                         scrollX = TRUE,
+                         columnDefs = list(
+                           list(className = 'dt-center nowrap', targets = 0:7))))
+
+# ... [End of OF Coffeeville Reservoir Crappie Chunk] ...
+# --- END OF Coffeeville Reservoir CODE ----
+```
+
+:::
+
+:::
+
+## Millers Ferry Reservoir
+
+{{< lipsum 1 >}} 
+
+::: {.column-screen-inset-right}
+::: {.panel-tabset}
+
+### Millers Ferry, Largemouth Bass
+
+```{r millers-ferry-LMB-summary, echo = FALSE, results = 'asis', message = FALSE}
+# --- START OF Millers Ferry LMB CODE ---
+
+# Filter the data for "Millers Ferry" (Assume "Millers Ferry" is the correct name in the CSV)
+
+mtd_miller = mtd_full %>%
+  dplyr::filter(Lake == "Millers Ferry" & Species == "Largemouth Bass")
+
+# Run the summary function on the Millers Ferry data
+summary_results_LMB_miller <- make_lake_summary(mtd_miller) %>%
+  add_summary_row() %>% rename(`15+ inch/hr` = `CPUE (large fish/hr)`)
+
+datatable(summary_results_LMB_miller, 
+          caption = "Millers Ferry Largemouth Bass (LMB) CPUE & WR Summary",
+          width = "100%", 
+          options = list(dom = 'tip',
+                         scrollX = TRUE,
+                         columnDefs = list(
+                           list(className = 'dt-center nowrap', targets = 0:7))))
+
+
+# --- END OF Miller Ferry CODE ----
+```
+
+### Millers Ferry, Crappie spp.
+
+```{r millers-ferry-Crappie-summary, echo = FALSE, results = 'asis', message = FALSE}
+# --- START OF Millers Ferry Crappie CODE ---
+
+# Filter the data for "Millers Ferry" (Assume "Millers Ferry" is the correct name in the CSV)
+
+mtd_miller = mtd_full %>%
+  dplyr::filter(Lake == "Millers Ferry" & Species != "Largemouth Bass")
+
+# Run the summary function on the Millers Ferry data
+summary_results_crappie_miller <- make_lake_summary(mtd_miller) %>%
+  add_summary_row() %>% rename(`9+ inch/hr` = `CPUE (large fish/hr)`)
+
+datatable(summary_results_crappie_miller, 
+          caption = "Millers Ferry Crappie spp. CPUE & WR Summary",
+          width = "100%", 
+          options = list(dom = 'tip',
+                         scrollX = TRUE,
+                         columnDefs = list(
+                           list(className = 'dt-center nowrap', targets = 0:7))))
+
+# ... [End of OF Miller Ferry Crappie Chunk] ...
+# --- END OF Miller Ferry CODE ----
+```
+
+:::
+
+:::

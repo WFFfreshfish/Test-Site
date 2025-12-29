@@ -1,0 +1,48 @@
+---
+title: ""
+image: wff_full.png
+
+#about:
+  #id: hero-heading
+  #template: trestles
+  #image-shape: rectangle
+    #links:
+    #- icon: twitter
+      #text: Twitter
+      #href: https://twitter.com
+    #- icon: linkedin
+     # text: LinkedIn
+     # href: https://linkedin.com
+   # - icon: github
+     # text: Github
+     # href: https://github.com
+---
+
+<!-- Heading --> 
+<div style="text-align:center;"><span style="font-size: 2.5em; font-weight: bold;">Freshwater Fisheries Division</span>
+</div>
+
+<!-- Background -->
+::: {.hero-section style="display: flex; align-items: center; gap: 4rem; padding: 2rem; background: #f4f9fc; border-radius: 12px; margin-top: 20px; margin-left: -200px; margin-right: -200px; padding-left: 25px; padding-right: 75px;"}
+
+<!-- Left Image -->
+<div style="flex-shrink: 0;">![](wff_full.png){style="width: 300px; height: auto; border-radius: 12px; object-fit: cover;"}
+</div>
+
+<!-- Text Body --> 
+<div style="flex-grow: 1; min-width: 65%;">
+<p>Alabama is home to a rich network of rivers and reservoirs that support thriving fisheries and some of the most diverse aquatic ecosystems in the country. Anglers can find ample opportunities for bass, crappie, catfish, and other popular sport fish in the flowing waters of the Alabama and Tombigbee Rivers, large impoundments like Guntersville Reservoir, and coastal rivers such as the expansive Mobile-Tensaw Delta. Sampling and data collection are central to maintaining healthy fish populations for both conservation and recreation, and fisheries biologists regularly monitor these populations to ensure Alabama’s fisheries remain abundant, balanced, and enjoyable for anglers of all skill levels.
+
+<p>
+**Boat Ramps and Access:** [Outdoor Alabama Freshwater Boating Access](https://www.outdooralabama.com/freshwater-boating-access)
+<p>
+
+</div>
+
+
+
+
+
+
+
+

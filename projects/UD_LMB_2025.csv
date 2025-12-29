@@ -1,0 +1,173 @@
+Waterbody,Sub Basin,Type,Gear,Date,Year,Time,Site,Latitude,Longitude,Effort,DO (mg/L),Sechhi (m),Salinity (ppt),Conductivity (us/cm),Temperature (C),Voltage,Amps,Hz,Duty Cycle,Species,Size Group (cm),Number,TL (mm),Wt (mm)
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,219,148
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,375,873
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,237,201
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,248,231
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,212,120
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,301,395
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,300,411
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,250,220
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,362,646
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,338,610
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,307,425
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,197,93
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,327,554
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,330,534
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,310,526
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,299,476
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,188,107
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,282,309
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,334,631
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,270,305
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,235,166
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,345,707
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,173,66
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,326,523
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,277,301
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,300,378
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,270,284
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,279,300
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,339,568
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,521,1985
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,359,742
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,348,563
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,347,652
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,319,519
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,187,78
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,356,685
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,255,247
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,267,284
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,259,231
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,366,736
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,478,1660
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,309,471
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,257,218
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,249,258
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,282,356
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,336,444
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,329,568
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,410,899
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,231,163
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,257,243
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,286,370
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,346,657
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,387,860
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,349,676
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,298,393
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,283,290
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,258,212
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,332,545
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,339,586
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,317,494
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,312,416
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,480,1778
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,271,281
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,264,265
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,272,264
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,311,514
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,330,587
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,333,563
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,257,267
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,245,204
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,256,275
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,275,233
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,325,477
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,371,710
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,386,336
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,268,250
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,202,113
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,276,322
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,292,365
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,285,326
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,297,357
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,260,247
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,216,128
+Upper Delta,Red Hill Creek,Bass,Electrofishing,4/23/2025,2025,12:00,RHC,31.08403,87.87349,1800,3.86,0.7,0.1,96.9,24.8,,,124,25,Largemouth Bass,,1,277,329
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,182,93
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,365,651
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,294,352
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,387,884
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,288,334
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,349,615
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,276,258
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,337,526
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,337,536
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,294,415
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,285,327
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,342,579
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,394,970
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,270,308
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,302,375
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,315,433
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,301,349
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,263,248
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,257,236
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,328,526
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,296,401
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,269,259
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,300,463
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,391,868
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,322,534
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,228,190
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,297,347
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,283,361
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,275,294
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,271,280
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,234,188
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,245,224
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,267,228
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,312,416
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,294,403
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,308,418
+Upper Delta,Douglas Lake,Bass,Electrofishing,4/23/2025,2025,10:55,DL3,31.06295,87.89204,1800,3.20,0.5,0.1,116.9,23.1,504,16,124,25,Largemouth Bass,,1,320,537
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,314,422
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,256,220
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,285,303
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,390,946
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,212,149
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,273,324
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,327,568
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,315,530
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,292,324
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,242,232
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,302,426
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,280,281
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,275,273
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,287,328
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,360,600
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,332,493
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,280,300
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,319,540
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,269,282
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,243,198
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,273,268
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,243,208
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,282,358
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,324,525
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,320,567
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,263,250
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,275,346
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,240,169
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,302,433
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,330,531
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,213,137
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,309,388
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,315,521
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,449,1327
+Upper Delta,Little Dead Lake,Bass,Electrofishing,4/23/2025,2025,13:00,LDL,31.09752,87.87502,1800,3.21,0.5,0.1,117.1,22.9,0,0,124,25,Largemouth Bass,,1,235,190
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,325,516
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,480,1651
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,301,364
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,477,1622
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,354,732
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,296,390
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,295,456
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,210,123
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,296,409
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,312,415
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,254,199
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,267,253
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,195,80
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,171,59
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,351,609
+Upper Delta,Dead Lake Island,Bass,Electrofishing,4/23/2025,2025,9:30,DLI,31.05232,87.91318,1800,3.40,0.5,0.1,115.8,22.3,580,17,124,25,Largemouth Bass,,1,273,275
